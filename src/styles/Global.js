@@ -48,6 +48,7 @@ export const GlobalStyles = createGlobalStyle`
   }
   button {
     cursor: pointer;
+    background-color: none;
   }
   /* width */
   ::-webkit-scrollbar {

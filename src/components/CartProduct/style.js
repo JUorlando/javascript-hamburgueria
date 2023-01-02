@@ -26,11 +26,9 @@ img{
         align-items: center;
 
         button{
-                    width: 51px;
+                    width: 15px;
                     height: 15px;
-                    color: var(--color-text-in-primary);
                     border: none;
-                    font-size: small;
                 }
 
                 h2{

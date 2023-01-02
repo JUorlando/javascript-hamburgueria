@@ -1,4 +1,5 @@
 import { ProductCart } from "./style";
+import { FiTrash2 } from "react-icons/fi"
 
 export const CartProduct = ({currentSale, count, setCount, setCurrentSale, removeCard}) => {
 
@@ -10,7 +11,7 @@ export const CartProduct = ({currentSale, count, setCount, setCurrentSale, remov
           <div className="text">
           <div className="nameButton">
           <h2>{element.name}</h2>
-          <button onClick={() => removeCard(element.id)}>Remover</button>
+          <button onClick={() => removeCard(element.id)}><FiTrash2/></button>
           </div>
           <p>{element.category}</p>
           </div>
